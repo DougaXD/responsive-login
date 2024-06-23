@@ -4,25 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Responsive Login</title>
+  <link rel="stylesheet" href="styles/style.css" media="all">
+  <link rel="stylesheet" href="styles/media-queries.css" media="screen">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
 <body>
   <main>
     <section id="menu">
       <div id="image">
-        
+        <!--IMAGE ON CSS-->
       </div>
       <div id="form-login">
         <h1>Login</h1>
         <p>Welcome! Log in to acess your acount.</p>
         <form method="post" action="login.php" autocomplete="on">
           <div class="area">
-            <label for="iemail">Email: </label>
             <input type="email" name="email" id="iemail" placeholder="seu e-mail" autocomplete="email" required maxlength="30">
+            <label for="iemail">Email</label>
           </div>
           <div class="area">
-            <label for="ipassword">Password: </label>
             <input type="password" name="password" id="ipassword" placeholder="your password" autocomplete="password" required minlength="8" maxlength="20">
+            <label for="ipassword">Password</label>
           </div>
+          <input type="submit" value="enter">
+          <a href="forgot.html" class="button">
+            I forgot my password <span class="material-symbols-outlined">mail</span>
+          </a>
         </form>
       </div>
     </section>
