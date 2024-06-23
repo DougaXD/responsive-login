@@ -19,11 +19,13 @@
         <p>Welcome! Log in to acess your acount.</p>
         <form method="post" action="login.php" autocomplete="on">
           <div class="area">
+            <span class="material-symbols-outlined">person</span>
             <input type="email" name="email" id="iemail" placeholder="seu e-mail" autocomplete="email" required maxlength="30">
             <label for="iemail">Email</label>
           </div>
           <div class="area">
-            <input type="password" name="password" id="ipassword" placeholder="your password" autocomplete="password" required minlength="8" maxlength="20">
+            <span class="material-symbols-outlined">vpn-key</span>
+            <input type="password" name="password" id="ipassword" placeholder="your password" autocomplete="current-password" required minlength="8" maxlength="20">
             <label for="ipassword">Password</label>
           </div>
           <input type="submit" value="enter">
