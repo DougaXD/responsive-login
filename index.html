@@ -14,8 +14,15 @@
       <div id="form-login">
         <h1>Login</h1>
         <p>Welcome! Log in to acess your acount.</p>
-        <form method="post">
-          
+        <form method="post" action="login.php" autocomplete="on">
+          <div class="area">
+            <label for="iemail">Email: </label>
+            <input type="email" name="email" id="iemail" placeholder="seu e-mail" autocomplete="email" required maxlength="30">
+          </div>
+          <div class="area">
+            <label for="ipassword">Password: </label>
+            <input type="password" name="password" id="ipassword" placeholder="your password" autocomplete="password" required minlength="8" maxlength="20">
+          </div>
         </form>
       </div>
     </section>
