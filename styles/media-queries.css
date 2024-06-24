@@ -51,5 +51,16 @@ telas grandes: acima de 1200px
   }
 }
 @media screen and (min-width: 992px){ /*OUTRAS TELAS*/
-  
+  section#menu{
+    width: 950px;
+  }
+  section#menu > div#image{
+    float: left;
+    width: 50%;
+    height: 100%;
+  }
+  section#menu > div#login{
+    float: right;
+    width: 50%;
+  }
 }
