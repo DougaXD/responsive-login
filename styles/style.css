@@ -50,7 +50,7 @@ form > a.button{
 }
 form > a.button:hover{
   color: rgb(0, 220, 250);
-  border: rgb(0, 220, 250);
+  border-color: rgb(0, 220, 250);
 }
 section#menu{
   background-color: white;
