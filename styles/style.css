@@ -50,8 +50,8 @@ div.area{
   border-radius: 10px;
 }
 div.area > label{
- padding: 3px;
- margin-right: 6px;
+  padding: 3px;
+  margin-right: 6px;
 }
 div.area > input{
   padding: 10px 5px;
