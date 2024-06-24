@@ -12,7 +12,7 @@
 html, body{
   width: 100vw;
   height: 100vh;
-  background-color: rgb(0, 125, 130);
+  /*background-color: rgb(0, 125, 130);*/
 }
 main{
   display: flex;
