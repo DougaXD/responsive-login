@@ -25,7 +25,6 @@ telas grandes: acima de 1200px
   section#menu > div#form-login{
     float: right;
     width: 70%;
-    background-color: pink;
   }
   div.area{
     padding: 5px;
@@ -65,11 +64,7 @@ telas grandes: acima de 1200px
   section#menu > div#form-login{
     float: right;
     width: 50%;
-    background-color: pink;
   }
-
-
-
   div.area{
     padding: 7px;
     margin-bottom: 17px;
