@@ -26,4 +26,16 @@ section#menu{
   width: 300px;
   height: 600px;
   border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.45);
+}
+section#menu > div#image{
+   display: block;
+   background: url(../images/build2.jpg) left bottom no-repeat;
+   background-size: cover;
+   height: 250px;
+}
+section#menu > div#form-login{
+  display: block;
+  padding: 20px;
 }
