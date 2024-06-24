@@ -20,5 +20,10 @@ main{
   align-items: center;
   width: 100vw;
   height: 100vh;
-  
+}
+section#menu{
+  background-color: white;
+  width: 300px;
+  height: 600px;
+  border-radius: 20px;
 }
