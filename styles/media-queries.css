@@ -13,6 +13,9 @@ telas grandes: acima de 1200px
   section#menu{
     width: 600px;
     height: 300px;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
   }
   section#menu > div#image{
     float: left;
@@ -28,17 +31,17 @@ telas grandes: acima de 1200px
 @media screen and (min-width: 768px) and (max-width: 992px){ /*TABLETS*/
   section#menu{
     width: 80vw;
-    display: flex;
+   /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
   }
   section#menu > div#image{
-    float: right;
+    float: left;
     height: 100%;
     width: 30%;
   }
   section#menu > div#form-login{
-    float: left;
+    float: right;
     width: 70%;
   }
   div.area{
@@ -67,19 +70,18 @@ telas grandes: acima de 1200px
 @media screen and (min-width: 992px){ /*OUTRAS TELAS*/
   section#menu{
     width: 950px;
-    display: flex;
+    /*display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
   }
   section#menu > div#image{
     float: right;
-    width: 50%;
     height: 100%;
+    width: 45%;
   }
   section#menu > div#form-login{
     float: left;
-    width: 50%;
-    background-color: red;
+    width: 55%;
   }
   div.area{
     padding: 7px;
