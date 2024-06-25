@@ -9,7 +9,7 @@ tablet: de 768px até 992px
 desktop: de 992px até 1200px
 telas grandes: acima de 1200px
 */
-@media screen and (max-width: 920px) and (orientation: landscape){ /*CELULAR HORIZONTAL*/
+@media only screen and (max-width: 768px) and (orientation: landscape){ /*CELULAR HORIZONTAL*/
   body{
     height: 100%;
     display: flex;
@@ -30,7 +30,7 @@ telas grandes: acima de 1200px
     width: 70%;
   }
 }
-@media screen and (min-width: 920px) and (max-width: 992px){ /*TABLETS*/
+@media only screen and (min-width: 768px) and (max-width: 992px){ /*TABLETS*/
   section#menu{
     width: 80vw;
     display: flex;
@@ -69,7 +69,7 @@ telas grandes: acima de 1200px
     padding: 20px 10px;
   }
 }
-@media screen and (min-width: 992px){ /*OUTRAS TELAS*/
+@media only screen and (min-width: 992px){ /*OUTRAS TELAS*/
   section#menu{
     width: 950px;
     display: flex;
