@@ -9,7 +9,22 @@ tablet: de 768px até 992px
 desktop: de 992px até 1200px
 telas grandes: acima de 1200px
 */
-
+@media screen and (max-width: 768px) and (orientation: landscape){ /*CELULAR HORIZONTAL*/
+  section#menu{
+    width: 600px;
+    height: 300px;
+  }
+  section#menu > div#image{
+    float: left;
+    width: 30%;
+    height: 100%;
+    
+  }
+  section#menu > div#form-login{
+    float: right;
+    width: 70%;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 992px){ /*TABLETS*/
   section#menu{
     width: 80vw;
@@ -18,12 +33,12 @@ telas grandes: acima de 1200px
     align-items: center;
   }
   section#menu > div#image{
-    float: left;
+    float: right;
     height: 100%;
     width: 30%;
   }
   section#menu > div#form-login{
-    float: right;
+    float: left;
     width: 70%;
   }
   div.area{
@@ -64,6 +79,7 @@ telas grandes: acima de 1200px
   section#menu > div#form-login{
     float: left;
     width: 50%;
+    background-color: red;
   }
   div.area{
     padding: 7px;
