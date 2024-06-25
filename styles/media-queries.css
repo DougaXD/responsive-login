@@ -57,7 +57,7 @@ telas grandes: acima de 1200px
     align-items: center;
   }
   section#menu > div#image{
-    float: left;
+    float: right;
     width: 50%;
     height: 100%;
   }
