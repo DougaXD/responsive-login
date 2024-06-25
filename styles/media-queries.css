@@ -9,7 +9,7 @@ tablet: de 768px até 992px
 desktop: de 992px até 1200px
 telas grandes: acima de 1200px
 */
-@media screen and (max-width: 768px) and (orientation: landscape){ /*CELULAR HORIZONTAL*/
+@media screen and (max-width: 920px) and (orientation: landscape){ /*CELULAR HORIZONTAL*/
   section#menu{
     width: 600px;
     height: 300px;
@@ -24,7 +24,7 @@ telas grandes: acima de 1200px
     width: 70%;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 992px){ /*TABLETS*/
+@media screen and (min-width: 920px) and (max-width: 992px){ /*TABLETS*/
   section#menu{
     width: 80vw;
     display: flex;
