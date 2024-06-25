@@ -62,7 +62,7 @@ telas grandes: acima de 1200px
     height: 100%;
   }
   section#menu > div#form-login{
-    float: right;
+    float: left;
     width: 50%;
   }
   div.area{
