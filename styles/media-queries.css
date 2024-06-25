@@ -10,6 +10,12 @@ desktop: de 992px até 1200px
 telas grandes: acima de 1200px
 */
 @media screen and (max-width: 920px) and (orientation: landscape){ /*CELULAR HORIZONTAL*/
+  body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   section#menu{
     width: 600px;
     height: 300px;
