@@ -96,3 +96,19 @@ div.area > input{
   border: none;
   border-radius: 10px;
 }
+
+/*---------------------------*/
+
+@media screen and (max-width: 768px) and (orientation: landscape){
+  section#menu{
+    width: 600px;
+    height: 300px;
+  }
+  section#menu > div#image{
+    float: left;
+    
+  }
+  section#menu > div#form-login{
+    float: right;
+  }
+}
