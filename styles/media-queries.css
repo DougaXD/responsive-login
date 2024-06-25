@@ -70,17 +70,20 @@ telas grandes: acima de 1200px
 @media screen and (min-width: 992px){ /*OUTRAS TELAS*/
   section#menu{
     width: 950px;
-    /*display: flex;
+    display: flex;
     justify-content: center;
-    align-items: center;*/
+    align-items: center;
   }
   section#menu > div#image{
-    float: right;
+    /*float: right;*/
+    /*justify-self: right;*/
+    align-self: right;
     height: 100%;
     width: 45%;
   }
   section#menu > div#form-login{
-    float: left;
+    /*float: left;*/
+    align-self: left;
     width: 55%;
   }
   div.area{
