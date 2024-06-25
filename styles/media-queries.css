@@ -9,7 +9,12 @@ tablet: de 768px até 992px
 desktop: de 992px até 1200px
 telas grandes: acima de 1200px
 */
-@media only screen and (max-width: 768px) and (orientation: landscape){ /*CELULAR HORIZONTAL*/
+@media only screen and (max-width: 768px) and (orientation: portrait){ /*CELULAR VERTICAL*/
+    section#menu{
+      width: 300px;
+    }
+}
+@media only screen and (max-width: 920px) and (orientation: landscape){ /*CELULAR HORIZONTAL*/
   body{
     height: 100%;
     display: flex;
@@ -30,9 +35,10 @@ telas grandes: acima de 1200px
     width: 70%;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 992px){ /*TABLETS*/
+@media only screen and (min-width: 920px) and (max-width: 1280px) and (orientation: landscape){ /*TABLET HORIZONTAL*/
   section#menu{
     width: 80vw;
+    height: 600px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -69,9 +75,49 @@ telas grandes: acima de 1200px
     padding: 20px 10px;
   }
 }
-@media only screen and (min-width: 992px){ /*OUTRAS TELAS*/
+@media only screen and (min-width: 768px) and (max-width: 992px) and (orientation:portrait){ /*TABLET VERTICAL*/
   section#menu{
-    width: 950px;
+    width: 80vw;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  section#menu > div#image{
+    order: 1;
+    height: 100%;
+    width: 30%;
+  }
+  section#menu > div#form-login{
+    order: 2;
+    width: 70%;
+  }
+  div.area{
+    padding: 5px;
+    margin-bottom: 15px;
+  }
+  form > input{
+    height: 60px;
+    margin-bottom: 15px;
+    font-size: 1.3em;
+  }
+  form > a.button{
+    height: 60px;
+    border-width: 5px;
+  }
+  div#form-login > h1{
+    font-size: 2em;
+  }
+  div.area > label{
+    padding: 10px;
+  }
+  div.area > input{
+    padding: 20px 10px;
+  }
+}
+@media only screen and (min-width: 1200px){ /*OUTRAS TELAS*/
+  section#menu{
+    width: 985px;
     display: flex;
     justify-content: space-between;
     align-items: center;
